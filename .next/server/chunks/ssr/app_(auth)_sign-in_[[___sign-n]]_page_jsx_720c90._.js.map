@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/rajmotwani/Documents/PROJECTS/Wealth/Welth/app/%28auth%29/sign-in/%5B%5B...sign-n%5D%5D/page.jsx"],"sourcesContent":["import { SignIn } from \"@clerk/clerk-react\";\nimport React from \"react\";\n\nconst Page = () => {\n  return <SignIn />;\n};\n\nexport default Page;\n"],"names":[],"mappings":";;;;AAAA;AACA;AADA;;;;AAGA,MAAM,OAAO;IACX,qBAAO,8OAAC,2KAAA,CAAA,SAAM;;;;;AAChB;uCAEe"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

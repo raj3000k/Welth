@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":["file:///Users/rajmotwani/Documents/PROJECTS/Wealth/Welth/components/header.jsx"],"sourcesContent":["\"use client\";\nimport { SignedIn, SignedOut, SignInButton, UserButton } from \"@clerk/nextjs\";\nimport Image from \"next/image\";\nimport Link from \"next/link\";\nimport React from \"react\";\n\nconst Header = () => {\n  return (\n    <div className=\"fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b\">\n      <nav>\n        <Link href=\"/\">\n          <Image\n            src={\"/logo.png\"}\n            alt=\"logo\"\n            height={60}\n            width={200}\n            className=\"h-12 w-auto object-contain\"\n          />\n        </Link>\n      </nav>\n      <SignedOut>\n        <SignInButton />\n      </SignedOut>\n      <SignedIn>\n        <UserButton />\n      </SignedIn>\n    </div>\n  );\n};\n\nexport default Header;\n"],"names":[],"mappings":";;;;AAEA;AACA;AACA;AAHA;AAAA;AADA;;;;;;AAMA,MAAM,SAAS;IACb,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;0BACC,cAAA,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAK;8BACT,cAAA,8OAAC,6HAAA,CAAA,UAAK;wBACJ,KAAK;wBACL,KAAI;wBACJ,QAAQ;wBACR,OAAO;wBACP,WAAU;;;;;;;;;;;;;;;;0BAIhB,8OAAC,yKAAA,CAAA,YAAS;0BACR,cAAA,8OAAC,2KAAA,CAAA,eAAY;;;;;;;;;;0BAEf,8OAAC,yKAAA,CAAA,WAAQ;0BACP,cAAA,8OAAC,2KAAA,CAAA,aAAU;;;;;;;;;;;;;;;;AAInB;uCAEe"}},
+    {"offset": {"line": 136, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
